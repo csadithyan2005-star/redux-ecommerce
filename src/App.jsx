@@ -20,7 +20,7 @@ function App() {
      <Route path='/ product:id'element={<View/>}/>
      <Route path='/Wishlist'element={<Wishlist/>}/>
      <Route path='/Cart'element={<Cart/>}/>
-     <Route path='/'element={<Pagenotfound/>}/>
+     <Route path='/*'element={<Pagenotfound/>}/>
      </Routes>
      <Footer/>
     </>
